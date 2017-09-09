@@ -184,8 +184,6 @@ func mergeSettings() {
 	if settings.Flags == "" {
 		if config.Flags != "" {
 			settings.Flags = config.Flags
-		} else {
-			settings.Flags = defaults.Flags
 		}
 	}
 }
